@@ -1,0 +1,28 @@
+/*========== RESET ==========*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* stops headings hiding under the fixed nav */
+}
+body {
+  background: #131a13;
+  color: #f0ede6;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #f0ede6;
+}
+a:hover {
+  text-decoration: underline;
+  color: #7db87d;
+}
