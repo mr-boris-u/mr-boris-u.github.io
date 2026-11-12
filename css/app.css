@@ -74,3 +74,19 @@ nav {
 #navSocial img:hover {
   opacity: 0.6;
 }
+/*========== HAMBURGER ==========*/
+#hamburger {
+  display: none;
+  width: 44px;
+  position: fixed;
+  z-index: 33;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+}
+.bar {
+  height: 6px;
+  margin: 5px 0;
+  border-radius: 3px;
+  background: #f0ede6;
+}
