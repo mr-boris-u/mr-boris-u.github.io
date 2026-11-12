@@ -139,6 +139,21 @@ header {
   color: #f0ede6;
   text-decoration: none;
 }
+/*========== QUOTE BANNER ==========*/
+#quot {
+  grid-area: quo;
+  background: #0e1a0e;
+  padding: 80px 60px;
+  text-align: center;
+}
+#quot h2 {
+  font-size: 2.6em;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+#quot p {
+  color: #7a8f74;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
