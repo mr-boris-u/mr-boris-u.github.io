@@ -90,6 +90,16 @@ nav {
   border-radius: 3px;
   background: #f0ede6;
 }
+/*========== GRID ==========*/
+#grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "hdr hdr hdr hdr hdr hdr hdr hdr hdr hdr hdr hdr"
+    "quo quo quo quo quo quo quo quo quo quo quo quo"
+    "mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  mn  mn"
+    "ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr ftr";
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
