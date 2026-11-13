@@ -190,6 +190,43 @@ main {
   border-radius: 8px;
   display: block;
 }
+/*========== SKILLS ==========*/
+#skills {
+  background: #0e1a0e;
+  padding: 80px 60px;
+}
+#skills h2 {
+  font-size: 2.4em;
+  margin-bottom: 8px;
+}
+.sectionSub {
+  color: #7a8f74;
+  margin-bottom: 40px;
+}
+#skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.skillCard {
+  background: #1a2419;
+  border: 1px solid #2a3d2a;
+  border-radius: 8px;
+  padding: 28px 24px;
+}
+.skillIcon {
+  font-size: 2em;
+  color: #7db87d;
+  margin-bottom: 12px;
+}
+.skillCard h3 {
+  margin-bottom: 10px;
+}
+.skillCard p {
+  font-size: 0.88em;
+  color: #7a8f74;
+  line-height: 1.7;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
@@ -219,5 +256,8 @@ main {
   }
   #aboutImg img {
     max-width: 300px;
+  }
+    #skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
