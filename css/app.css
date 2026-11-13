@@ -176,6 +176,16 @@ main {
 #aboutText .ctaBtn {
   margin-top: 8px;
 }
+#about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#aboutImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
@@ -196,5 +206,11 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 24px;
+  }
+    #about {
+    grid-template-columns: 1fr;
+  }
+  #aboutImg {
+    height: 350px;
   }
 }
