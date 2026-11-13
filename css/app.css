@@ -154,6 +154,28 @@ header {
 #quot p {
   color: #7a8f74;
 }
+/*========== MAIN ==========*/
+main {
+  grid-area: mn;
+}
+
+/*========== ABOUT ==========*/
+#aboutText {
+  padding: 80px 60px;
+  background: #1a1f1a;
+}
+#aboutText h2 {
+  font-size: 2.4em;
+  margin-bottom: 16px;
+}
+#aboutText p {
+  color: #8a9e84;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+#aboutText .ctaBtn {
+  margin-top: 8px;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
