@@ -211,6 +211,9 @@ main {
     align-items: center;
     gap: 24px;
   }
+  #about {
+    grid-template-columns: 1fr;
+  }
       #aboutImg {
     padding: 0 60px 60px;
   }
