@@ -178,12 +178,12 @@ main {
 }
 #about {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 400px;
   align-items: center;
   background: #1a1f1a;
 }
 #aboutImg {
-  padding: 60px;
+  padding: 40px;
 }
 #aboutImg img {
   width: 100%;
