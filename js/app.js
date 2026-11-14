@@ -17,3 +17,11 @@ function closeMenu() {
     menuOpen = false;
   }
 } // closeMenu()
+$(document).ready(function () {
+  /* Contact form submit */
+  $('.contactForm').on('submit', function (e) {
+    e.preventDefault(); // stop the page from reloading
+    $(this).find('button').text('Message Sent ✓');
+    this.reset(); // clear the fields
+  });
+});
