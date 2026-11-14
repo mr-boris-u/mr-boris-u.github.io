@@ -227,6 +227,20 @@ main {
   color: #7a8f74;
   line-height: 1.7;
 }
+/*========== PROJECTS ==========*/
+section h2 {
+  font-size: 2.4em;
+  margin-bottom: 8px;
+}
+#projects {
+  background: #131a13;
+  padding: 80px 60px;
+}
+#projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
