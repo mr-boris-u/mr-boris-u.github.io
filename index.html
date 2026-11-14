@@ -145,6 +145,27 @@
           </div>
         </div>
       </section>
+            <!-- CONTACT -->
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p class="sectionSub">Have a question or an opportunity? Send me a message.</p>
+        <form class="contactForm">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="jane@email.com" required>
+          <label for="reason">Reason for contact</label>
+          <select id="reason" name="reason">
+            <option value="">Choose one</option>
+            <option value="job">Job or internship</option>
+            <option value="project">Project collaboration</option>
+            <option value="hello">Just saying hi</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="What would you like to talk about?" required></textarea>
+          <button type="submit">Send message</button>
+        </form>
+      </section>
     </main>
   </div>
 </body>
