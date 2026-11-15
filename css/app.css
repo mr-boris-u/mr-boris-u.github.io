@@ -402,3 +402,24 @@ footer {
     text-align: center;
   }
 }
+/*========== PHONE ==========*/
+@media screen and (max-width: 600px) {
+  #headerContent h1 {
+    font-size: 2.4em;
+  }
+  #quot h2 {
+    font-size: 1.6em;
+  }
+  #quot, #aboutText, #skills, #projects, #contact {
+    padding: 60px 20px;
+  }
+  #aboutImg {
+    padding: 0 20px 40px;
+  }
+  #skillsGrid, #projectGrid {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    padding: 32px 20px;
+  }
+}
