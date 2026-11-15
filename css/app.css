@@ -336,6 +336,30 @@ section h2 {
 .contactForm button:hover {
   background: #3a6347;
 }
+/*========== FOOTER ==========*/
+footer {
+  grid-area: ftr;
+  background: #0a0f0a;
+  border-top: 1px solid #1f2f1f;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: #5e7a5a;
+}
+#footerSocial {
+  display: flex;
+  gap: 14px;
+}
+#footerSocial img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+}
+#footerSocial img:hover {
+  opacity: 1;
+}
 /*========== TABLET / MOBILE ==========*/
 @media screen and (max-width: 1024px) {
   #hamburger {
@@ -371,5 +395,10 @@ section h2 {
   }
     #projectGrid {
     grid-template-columns: repeat(2, 1fr);
+  }
+    footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
   }
 }
